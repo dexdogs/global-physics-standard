@@ -123,7 +123,7 @@ with col_left:
             st.error("Check Debug Terminal in Sidebar for details.")
 
 with col_right:
-    st.subheader("5. Field Data & PINN Audit")
+    st.subheader("5. Field Data & Physics Audit")
     
     # Site Data Chart
     site_data = generate_site_data(selected_sector_id)
@@ -132,7 +132,7 @@ with col_right:
     
     # THE PINN EXECUTION
     st.divider()
-    if st.button("🚀 Run Forensic PINN Audit", type="primary"):
+    if st.button("Check with your Physics nerd Assistant AI", type="primary"):
         if 'physics' in st.session_state and pdd_file:
             
             pdd_k = pdd_data['extracted_k_value']
