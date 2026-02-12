@@ -6,7 +6,7 @@ import yaml
 import time
 
 # --- CONFIGURATION ---
-st.set_page_config(page_title="dexdogs | VVB PINN OS", layout="wide", page_icon="🛡️")
+st.set_page_config(page_title="Physics-based Verification Demo // dexdogs", layout="wide")
 
 # !!! CRITICAL: UPDATE THESE TO MATCH YOUR GITHUB REPO !!!
 GITHUB_USER = "dexdogs" 
@@ -32,7 +32,7 @@ def get_github_physics(sector_id):
     
     # DEBUG DRAWER IN SIDEBAR
     st.sidebar.markdown("---")
-    st.sidebar.subheader("🛠️ Debug Terminal")
+    st.sidebar.subheader("Debug Terminal")
     st.sidebar.caption(f"Target URL: {url}")
     
     try:
@@ -80,8 +80,8 @@ def generate_site_data(sector_id):
 
 # --- UI LAYOUT ---
 
-st.title("🛡️ dexdogs | Universal VVB PINN OS")
-st.markdown("### Forensic Physics Verification for the Global Carbon Market")
+st.title("Physics-based Verification Demo // dexdogs")
+st.markdown("### Physics-nerd AI assistant for the VVBs/auditors of the world")
 
 # 1. SIDEBAR SETUP
 st.sidebar.header("1. Audit Scope")
