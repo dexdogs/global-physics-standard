@@ -1,7 +1,7 @@
 sector_id: "13"
 sector_name: "Waste handling and disposal"
 physics_standards:
-  methane_decay_k: 0.05 # <--- CHANGE THIS TO 0.05 TO MAKE THE DEMO "PASS"
+  methane_decay_k: 0.05
   ideal_gas_law_tolerance: 0.10
   max_flow_variance: 0.15
 last_updated: "2026-02-12"
