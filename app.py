@@ -99,7 +99,7 @@ pdd_file = st.sidebar.file_uploader("Upload Project Design Document (PDF)", type
 col_left, col_right = st.columns([1, 2])
 
 with col_left:
-    st.subheader("3. PDD Science Extraction")
+    st.subheader("3. Project Design Document (PDD) Science Extraction")
     if pdd_file:
         with st.spinner("Snowflake Cortex analyzing PDF..."):
             pdd_data = simulate_pdd_extraction(pdd_file, selected_sector_id)
