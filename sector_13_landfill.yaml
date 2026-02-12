@@ -1,0 +1,17 @@
+# SECTOR 13: WASTE HANDLING & DISPOSAL
+# Scientific Standard v2.4 (Approved by IME Board)
+
+physics_constraints:
+  ideal_gas_law:
+    R_constant: 8.314
+    temp_units: "Kelvin"
+    max_pressure_variance_percent: 10
+
+  methane_generation:
+    model: "First Order Decay (IPCC Tier 2)"
+    decay_k_value: 0.045
+    methane_density_stp: 0.717 # kg/m3
+
+  safety_thresholds:
+    min_well_pressure_kpa: 85.0
+    max_flow_scfm: 1200
