@@ -9,7 +9,7 @@ import time
 st.set_page_config(page_title="dexdogs | VVB PINN OS", layout="wide", page_icon="🛡️")
 
 # !!! CRITICAL: UPDATE THESE TO MATCH YOUR GITHUB REPO !!!
-GITHUB_USER = "YOUR_USERNAME_HERE" 
+GITHUB_USER = "dexdogs" 
 REPO_NAME = "global-physics-standard"
 BRANCH = "main"
 
